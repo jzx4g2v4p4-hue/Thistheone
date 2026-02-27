@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Elite Training V2</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">ELITE TRAINING</div>
+  <div class="tag">Performance Build</div>
+</header>
+
+<main>
+
+<section class="card">
+  <h2>Workout</h2>
+  <div id="movementList"></div>
+</section>
+
+<section class="card">
+  <h2>Rest Timer</h2>
+  <div id="timerDisplay" class="timer-display">0</div>
+  <div class="timer-buttons">
+    <button onclick="startTimer(30)">30s</button>
+    <button onclick="startTimer(60)">60s</button>
+    <button onclick="startTimer(90)">90s</button>
+    <button onclick="startTimer(120)">2m</button>
+    <button onclick="startTimer(180)">3m</button>
+  </div>
+</section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
